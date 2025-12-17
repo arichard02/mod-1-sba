@@ -1,0 +1,9 @@
+In this project, I learned how to create and manage branches using Git. I started by creating a new branch called feature/header to work on the header section of a webpage. In this branch, I created an index.html file and added a basic HTML structure with a header. After making the changes, I staged and committed them. Once finished, I switched back to the main branch.
+
+Next, I created another branch called feature/footer to work on a different feature. In this branch, I added a footer section to the same index.html file and committed the changes. I then merged the feature/footer branch into the main branch. After that, I tried to merge the feature/header branch into main, which caused a merge conflict because both branches changed the same file.
+
+To fix the conflict, I opened the index.html file and reviewed the conflict markers added by Git. I decided which changes to keep and combined the header and footer sections correctly. After resolving the conflict, I staged the file and committed the resolved changes. I used git status to make sure there were no remaining conflicts.
+
+Finally, I pushed the updated main branch to GitHub and created a pull request to a review/main branch. The pull request process helped ensure code quality by allowing changes to be reviewed before being finalized.
+
+Reviewing a peer’s pull request was challenging at first, but with help I was able to complete it and better understand the importance of organized code. The experience also showed me how important it is to ask for help when stuck, especially since I wasn’t the only one who needed clarification.
